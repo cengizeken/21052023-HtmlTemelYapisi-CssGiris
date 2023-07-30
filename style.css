@@ -1,0 +1,80 @@
+/* body arkaplan degistirme*/
+body {
+    /* 
+    background-color: rgba(66, 130, 142, 0.638);
+    background-image: url(cocuklar.jpeg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    */
+
+    background: blue url(cocuk.jpg) no-repeat center fixed;
+    background-size: cover;
+  
+}
+p{
+    background-color: azure;
+    color: red
+}
+.ozel-p{
+    text-indent: 50px;
+    word-spacing: 10pt;
+    letter-spacing: 2mm;
+    line-height: 0.8cm;
+    font-size: 2rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.ortala-p{
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 2em;
+    line-height: 200%;
+    font-weight: bold;
+}
+.saga-p{
+    text-align: right;
+    text-transform: lowercase;
+}
+
+#ozelTablo{
+    background-color: rgb(192, 91, 41);
+}
+
+.ozel-sinif{
+    background-color: #0472e0d4;
+    padding: 10px;
+}
+
+li{
+    background-color: blueviolet;
+    color: white;
+}
+[title=baslik]{
+    background-color: red;
+    padding: 10px;
+}
+
+a{
+    background-color: red;
+    color: white;
+    padding: 10px;
+    margin: 10px;
+}
+
+a:link{
+    background-color: blue;
+}
+
+a:visited{
+    background-color: yellow;
+    color: red;
+}
+
+a:hover{
+    background-color: aqua;
+}
+
+a:active{
+    background-color: palegreen;
+}
